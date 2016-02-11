@@ -87,7 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258afda4a591b60419283b7d1b3d4016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreGT: {fileID: 13278188, guid: 2a82f33c8089e06428f73434ad1d834b, type: 2}
+  scoreGT: {fileID: 13297538, guid: 1b252cdd2f379d44bbc3a03d5b8b11f0, type: 2}
   score: 0
 --- !u!1001 &100100000
 Prefab:
@@ -103,7 +103,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: scoreGT
       value: 
-      objectReference: {fileID: 13278188, guid: 2a82f33c8089e06428f73434ad1d834b,
+      objectReference: {fileID: 13297538, guid: 1b252cdd2f379d44bbc3a03d5b8b11f0,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

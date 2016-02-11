@@ -30,5 +30,8 @@ public class Basket : MonoBehaviour {
         }
         score += 100;
         scoreGT.text = "Score: " + score;
+        if(score > HighScore.score) {
+            HighScore.score = score;
+        }
     }
 }
