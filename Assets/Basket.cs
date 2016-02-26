@@ -27,8 +27,8 @@ public class Basket : MonoBehaviour {
         GameObject collidedWith = coll.gameObject;
         if (collidedWith.tag == "Apple") {
             Destroy(collidedWith);
+			score += 100;
         }
-        score += 100;
         scoreGT.text = "Score: " + score;
         if(score > HighScore.score) {
             HighScore.score = score;
